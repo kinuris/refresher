@@ -7,8 +7,8 @@ use CodeIgniter\HTTP\ResponseInterface;
 
 class ExampleController extends BaseController
 {
-    public function index()
+    public function addUser()
     {
-        //
+        return view("users/add");    
     }
 }
